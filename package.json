@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "hapi": "^17.5.2",
+    "mongoose": "^5.2.5",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^1.18.3"
+  }
+}
