@@ -6,7 +6,7 @@ const DataBaseConnection = require('@config/database');
 const routes = require('@routes');
 const graphiql = require('@config/graphiql');
 const graphql = require('@config/graphql');
-
+const swagger = require('@config/swagger');
 
 const server = hapi.server({
   port: process.env.PORT,
@@ -16,6 +16,7 @@ const server = hapi.server({
 const init = async () => {
   try {
     DataBaseConnection();
+    await server.register(swagger);
     await server.register(graphiql);
     await server.register(graphql);
     server.route(routes);

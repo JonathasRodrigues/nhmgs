@@ -15,9 +15,12 @@
     "dotenv": "^6.0.0",
     "graphql": "^0.13.2",
     "hapi": "^17.5.2",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
     "module-alias": "^2.1.0",
     "mongoose": "^5.2.5",
     "mongose": "^0.0.2-security",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.18.3",
+    "vision": "^5.3.3"
   }
 }
