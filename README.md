@@ -1,8 +1,12 @@
 # nhmgs
-NHMGS = Nodejs + Hapi - Mongodb + Graphql + Swagger
+NHMGS = NodeJD + Hapi - MongoDB + GraphQL + Swagger
 
 yarn install
+
 yarn start
 
+config file .env
+
 /documentation
+
 /graphiql
