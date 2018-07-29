@@ -2,9 +2,20 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "_moduleAliases": {
+    "@server": "server",
+    "@config": "server/config",
+    "@routes": "server/routes",
+    "@models": "server/models",
+    "@objects": "server/graphql/objects",
+    "@schemas": "server/graphql/schemas"
+  },
   "dependencies": {
+    "apollo-server-hapi": "^1.3.6",
     "dotenv": "^6.0.0",
+    "graphql": "^0.13.2",
     "hapi": "^17.5.2",
+    "module-alias": "^2.1.0",
     "mongoose": "^5.2.5",
     "mongose": "^0.0.2-security",
     "nodemon": "^1.18.3"

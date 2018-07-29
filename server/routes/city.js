@@ -1,4 +1,4 @@
-const City = require('../models/City');
+const City = require('@models/City');
 
 const cityRoutes = [
   {
@@ -16,7 +16,7 @@ const cityRoutes = [
       const city = new City({
         name
       });
-      return City.save();
+      return city.save();
     }
   },
 ];
